@@ -1,0 +1,97 @@
+/* @import "tailwindcss/base/base.css"; */
+/* @import "tailwindcss/base/custom-base-styles.css"; */
+
+/* @import "tailwindcss/components/components.css"; */
+/* @import "tailwindcss/components/custom-components.css"; */
+
+/* @import "tailwindcss/utilities/utilities.css"; */
+/* @import "tailwindcss/utilities/custom-utilities.css"; */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+:root {
+  --font-family: 'Poppins', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --line-height: 1.5;
+
+  /* Font Size */
+  --biggest-font-size: 3rem;
+  --h1-font-size: 2rem;
+  --h2-font-size: 1.5rem;
+  --h3-font-size: 1.25rem;
+  --normal-font-size: 1rem;
+  --small-font-size: .875rem;
+  --smaller-font-size: .813rem;
+
+  /* Font weight */
+  --font-medium: 500;
+  --font-bold: 600;
+
+  --color-scheme: light dark;
+  --skin-color: #f55959;
+  --text-color: rgba(255, 255, 255, 0.87);
+  --background-color: #242424;
+
+  /* Z-index */
+  --z-fixed: 10;
+  --z-modal: 100;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  max-height: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+html, body{
+  scroll-behavior: smooth;
+  max-width: 100%;
+  background-color: var(--background-color);
+  color: var(--text-color)
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body,
+button,
+input{
+  font-family: var(--font-family);
+  font-size: var(--normal-font-size);
+}
+
+h1, h2, h3{
+  font-weight: var(--font-bold)
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+button{
+  cursor: pointer;
+}
+
+button,
+input{
+  border: none;
+  outline: none;
+}

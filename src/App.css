@@ -1,0 +1,18 @@
+/* import UilReact from '@iconscout/react-unicons/icons/uil-react' */
+
+/* Sidebar */
+.sidebar{
+  position: fixed;
+  width: 9%;
+  height: 100vh;
+  background-color: var(--background-color);
+  border-right: 2px solid rgb(99, 105, 104);
+}
+
+#sidebar{
+  max-height: 100vh;
+}
+
+#home{
+  width: 100%;
+}
